@@ -1,0 +1,12 @@
+{
+    "KNN": {
+        "metric": "euclidean",
+        "n_neighbors": 8,
+        "weights": "distance"
+    },
+    "SVM": {
+        "kernel": "rbf",
+        "gamma": 0.1,
+        "C": 10.0
+    }
+}
