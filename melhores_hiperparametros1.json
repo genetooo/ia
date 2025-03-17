@@ -1,0 +1,29 @@
+{
+    "RandomForest": {
+        "bootstrap": false,
+        "max_depth": 20,
+        "max_features": "log2",
+        "min_samples_leaf": 2,
+        "min_samples_split": 5,
+        "n_estimators": 137
+    },
+    "XGBoost": {
+        "colsample_bytree": 0.7297380084021096,
+        "gamma": 0.02441759094013467,
+        "learning_rate": 0.04562978380769749,
+        "max_depth": 8,
+        "min_child_weight": 1,
+        "n_estimators": 484,
+        "subsample": 0.6911740650167767
+    },
+    "KNN": {
+        "metric": "minkowski",
+        "n_neighbors": 6,
+        "weights": "distance"
+    },
+    "SVM": {
+        "kernel": "rbf",
+        "gamma": "scale",
+        "C": 1
+    }
+}
